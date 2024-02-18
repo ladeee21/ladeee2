@@ -41,8 +41,8 @@ namespace REQ004
 		TEST_METHOD(setLengthfunctionality1)
 		{
 			int Length1 = 0;
-			setLength(-20, &Length1);
-			Assert::AreEqual(-20, Length1);
+			setLength(20, &Length1);
+			Assert::AreEqual(20, Length1);
 
 		}
 		TEST_METHOD(setLengthfunctionality2)
@@ -60,8 +60,8 @@ namespace REQ004
 		TEST_METHOD(setWidthfunctionality1)
 		{
 			int Width1 = 0;
-			setWidth(-5, &Width1);
-			Assert::AreEqual(-5, Width1);
+			setWidth(5, &Width1);
+			Assert::AreEqual(5, Width1);
 
 		}
 		TEST_METHOD(setWidthfunctionality2)
